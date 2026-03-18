@@ -1,4 +1,6 @@
-A backend app where users submit jobs, jobs get processed by a worker, the API is protected by API keys and rate limiting, and completed jobs/documents can be searched. (7 Day Project)
+# Welcome to Foundry
+
+A backend app where users submit jobs, jobs get processed by a worker, the API is protected by API keys and rate limiting, and completed jobs/documents can be searched. (7 Day Coding Sprint)
 
 Workflow: Users submit jobs → jobs get processed → results stored → dashboard shows system state.
 
