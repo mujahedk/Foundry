@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from app.routes.jobs import router as jobs_router
 from app.db.connection import get_db_connection
 
 
@@ -14,6 +14,9 @@ def root():
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+
+app.include_router(jobs_router)
 
 
 @app.get("/db-check")

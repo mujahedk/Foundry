@@ -44,10 +44,10 @@ Goal: the system can create and view jobs.
 
 TODOs:
 
-- [ ] Build **create job endpoint**
-- [ ] Build **list jobs endpoint**
-- [ ] Build **get single job endpoint**
-- [ ] Test API with curl/Postman
+- [x] Build **create job endpoint**
+- [x] Build **list jobs endpoint**
+- [x] Build **get single job endpoint**
+- [x] Test API with curl/Postman
 
 What you should understand:
 
